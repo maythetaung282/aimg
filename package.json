@@ -1,0 +1,14 @@
+{
+  "name": "aimg-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AIMG — AI Myanmar Group portfolio website",
+  "scripts": {
+    "start": "npx --yes http-server . -p 8765 -c-1",
+    "dev": "npx --yes http-server . -p 8765 -c-1 -o"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "pdfjs-dist": "^4.4.168"
+  }
+}
